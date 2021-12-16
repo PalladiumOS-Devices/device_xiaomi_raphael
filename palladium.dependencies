@@ -1,6 +1,12 @@
 [
    {
       "remote":"github",
+      "repository":"PalladiumOS-Devices/vendor_xiaomi_raphael",
+      "target_path":"vendor/xiaomi",
+      "branch":"12"
+   },
+   {
+      "remote":"github",
       "repository":"PalladiumOS-Devices/device_xiaomi_extras",
       "target_path":"device/xiaomi/extras",
       "branch":"12"
