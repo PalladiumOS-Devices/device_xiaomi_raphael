@@ -17,6 +17,15 @@ PRODUCT_DEVICE := raphael
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := palladium_raphael
 
+#Props for About Phone
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.palladiumdevice.maintainer=WadieHabib \
+    ro.palladiumdevice.cpu=SDM855 \
+    ro.palladiumdevice.display=6.39" \
+    ro.palladiumdevice.displaytype=FULLHD+ \
+    ro.palladiumdevice.battery=4000mAh \
+    ro.palladiumdevice.camera=48MP+8MP+13MP+20MP
+    
 BUILD_FINGERPRINT := "Xiaomi/raphaelin/raphaelin:9/PKQ1.181121.001/V10.3.3.0.PFKINXM:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
